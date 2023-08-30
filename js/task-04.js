@@ -1,7 +1,7 @@
-const counterValue = 0;
-const valueSpan = document.querySelector('#value');
-const decrementButton = document.querySelector('[data-action="decrement"]');
-const incrementButton = document.querySelector('[data-action="increment"]');
+let counterValue = 0;
+let valueSpan = document.querySelector('#value');
+let decrementButton = document.querySelector('[data-action="decrement"]');
+let incrementButton = document.querySelector('[data-action="increment"]');
 
 function updateValue(newValue) {
   valueSpan.textContent = newValue;
